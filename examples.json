@@ -1,0 +1,84 @@
+[
+  {
+    "label": "Urticária generalizada isolada: grau 1",
+    "input": {
+      "pele": true
+    },
+    "expected": {
+      "raw": {
+        "grau": 1
+      },
+      "level": "mid",
+      "verdict": "Grau 1"
+    },
+    "originalInput": {
+      "pele": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Urticária e sibilância: grau 2",
+    "input": {
+      "pele": true,
+      "resp": true
+    },
+    "expected": {
+      "raw": {
+        "grau": 2
+      },
+      "level": "high",
+      "verdict": "Grau 2"
+    },
+    "originalInput": {
+      "pele": true,
+      "resp": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Vômitos sem lesões de pele: grau 2",
+    "input": {
+      "gi": true
+    },
+    "expected": {
+      "raw": {
+        "grau": 2
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "gi": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+    "input": {
+      "pele": true,
+      "resp": true,
+      "hipotensao": true
+    },
+    "expected": {
+      "raw": {
+        "grau": 3
+      },
+      "level": "high",
+      "verdict": "Grau 3"
+    },
+    "originalInput": {
+      "pele": true,
+      "resp": true,
+      "hipotensao": true
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Nenhum achado: erro",
+    "input": {},
+    "expected": {
+      "error": true
+    },
+    "originalInput": [],
+    "expandedZeroOptions": []
+  }
+]

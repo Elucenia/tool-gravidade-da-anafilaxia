@@ -1,0 +1,197 @@
+{
+  "tool": {
+    "id": "gravidade-da-anafilaxia",
+    "title": "Gravidade da anafilaxia (Brown)",
+    "short": "Classificação em leve, moderada ou grave",
+    "desc": "Classifique a gravidade de uma reação de hipersensibilidade generalizada ou anafilaxia em graus 1, 2 e 3 pelo sistema de Brown, com a conduta imediata.",
+    "lead": "Classifica a gravidade das reações de hipersensibilidade generalizadas pelo achado mais grave, segundo o sistema de Brown (2004).",
+    "spec": [
+      "alergia-e-imunologia",
+      "medicina-de-emergencia",
+      "pediatria",
+      "anestesiologia",
+      "clinica-medica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "pele",
+        "Pele e subcutâneo: eritema generalizado, urticária, edema periorbitário ou angioedema",
+        "chk",
+        []
+      ],
+      [
+        "resp",
+        "Respiratório: dispneia, estridor, sibilância, aperto no peito ou na garganta",
+        "chk",
+        []
+      ],
+      [
+        "gi",
+        "Gastrointestinal: náusea, vômitos, dor abdominal",
+        "chk",
+        []
+      ],
+      [
+        "cardio",
+        "Pré-síncope (tontura) ou sudorese",
+        "chk",
+        []
+      ],
+      [
+        "hipoxia",
+        "Hipoxemia (SpO₂ ≤ 92%) ou cianose",
+        "chk",
+        []
+      ],
+      [
+        "hipotensao",
+        "Hipotensão (PAS &lt; 90 mmHg no adulto)",
+        "chk",
+        []
+      ],
+      [
+        "neuro",
+        "Comprometimento neurológico: confusão, colapso, perda de consciência ou incontinência",
+        "chk",
+        []
+      ]
+    ],
+    "formula": "<p>O grau é definido pelo achado mais grave:</p><ul><li><strong>Grau 1 (leve):</strong> apenas pele e subcutâneo.</li><li><strong>Grau 2 (moderado):</strong> sinais de envolvimento respiratório, cardiovascular ou gastrointestinal.</li><li><strong>Grau 3 (grave):</strong> hipoxemia (SpO₂ ≤ 92% ou cianose), hipotensão (PAS &lt; 90 mmHg) ou comprometimento neurológico.</li></ul>",
+    "table": [
+      [
+        "Grau",
+        "Achados",
+        "Conduta"
+      ],
+      [
+        "1 (leve)",
+        "Pele e subcutâneo",
+        "Anti-histamínico, observação; adrenalina se houver progressão"
+      ],
+      [
+        "2 (moderado)",
+        "Respiratório, cardiovascular ou gastrointestinal",
+        "Adrenalina IM imediata"
+      ],
+      [
+        "3 (grave)",
+        "Hipoxemia, hipotensão ou alteração neurológica",
+        "Adrenalina IM imediata, oxigênio, expansão volêmica, monitorização; considerar adrenalina IV em infusão"
+      ]
+    ],
+    "table_note": "Na coorte de Brown, hipotensão e hipoxemia foram os marcadores de gravidade; reações de grau 1 correspondem a hipersensibilidade generalizada sem critério de anafilaxia.",
+    "tips": [
+      "O diagnóstico de anafilaxia usa os critérios da WAO 2020; esta escala mede a gravidade, não substitui o diagnóstico.",
+      "Adrenalina IM (1 mg/mL) na face anterolateral da coxa: 0,01 mg/kg, até 0,5 mg no adulto e 0,3 mg na criança; repetir a cada 5 a 15 minutos se necessário.",
+      "Não espere hipotensão para dar adrenalina: sintomas respiratórios ou gastrointestinais após exposição a alérgeno conhecido já indicam o uso.",
+      "Anti-histamínico e corticoide não substituem a adrenalina e não previnem a reação bifásica; observe por 6 a 24 horas conforme a gravidade.",
+      "Na alta, prescreva autoinjetor de adrenalina (quando disponível), plano de ação escrito e encaminhe ao alergista."
+    ],
+    "sources": [
+      [
+        "Brown SGA. Clinical features and severity grading of anaphylaxis. J Allergy Clin Immunol, 2004.",
+        "https://doi.org/10.1016/j.jaci.2004.04.029"
+      ],
+      [
+        "Cardona V et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J, 2020.",
+        "https://doi.org/10.1016/j.waojou.2020.100472"
+      ]
+    ],
+    "cases": [
+      [
+        "Urticária generalizada isolada: grau 1",
+        {
+          "pele": true
+        },
+        {
+          "raw": {
+            "grau": 1
+          },
+          "level": "mid",
+          "verdict": "Grau 1"
+        }
+      ],
+      [
+        "Urticária e sibilância: grau 2",
+        {
+          "pele": true,
+          "resp": true
+        },
+        {
+          "raw": {
+            "grau": 2
+          },
+          "level": "high",
+          "verdict": "Grau 2"
+        }
+      ],
+      [
+        "Vômitos sem lesões de pele: grau 2",
+        {
+          "gi": true
+        },
+        {
+          "raw": {
+            "grau": 2
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        {
+          "pele": true,
+          "resp": true,
+          "hipotensao": true
+        },
+        {
+          "raw": {
+            "grau": 3
+          },
+          "level": "high",
+          "verdict": "Grau 3"
+        }
+      ],
+      [
+        "Nenhum achado: erro",
+        [],
+        {
+          "error": true
+        }
+      ]
+    ],
+    "batch": "clinica",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "clinica",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/clinica.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 5,
+      "passed": 5,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/clinica.php",
+    "sha256": "9dc60f9c51e1db27ff495c69b24d4422a87e42b8c9bc63551aac6a9bc704b2e0",
+    "bytes": 101245
+  },
+  "clinicalValidation": "not-performed"
+}
