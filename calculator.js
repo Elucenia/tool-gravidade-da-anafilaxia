@@ -1,11 +1,11 @@
-/* tool-gravidade-da-anafilaxia · Elucenia · https://github.com/Elucenia/tool-gravidade-da-anafilaxia
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-gravidade-da-anafilaxia · ELUCENIA · https://github.com/Elucenia/tool-gravidade-da-anafilaxia
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"gravidade-da-anafilaxia","title":"Gravidade da anafilaxia (Brown)","fields":[["pele","Pele e subcutâneo: eritema generalizado, urticária, edema periorbitário ou angioedema","chk",[]],["resp","Respiratório: dispneia, estridor, sibilância, aperto no peito ou na garganta","chk",[]],["gi","Gastrointestinal: náusea, vômitos, dor abdominal","chk",[]],["cardio","Pré-síncope (tontura) ou sudorese","chk",[]],["hipoxia","Hipoxemia (SpO₂ ≤ 92%) ou cianose","chk",[]],["hipotensao","Hipotensão (PAS &lt; 90 mmHg no adulto)","chk",[]],["neuro","Comprometimento neurológico: confusão, colapso, perda de consciência ou incontinência","chk",[]]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
