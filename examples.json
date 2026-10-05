@@ -1,8 +1,20 @@
 [
   {
-    "label": "Urticária generalizada isolada: grau 1",
-    "input": {
+    "id": "gravidade-da-anafilaxia",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Urticária generalizada isolada: grau 1",
+    "originalInput": {
       "pele": true
+    },
+    "input": {
+      "pele": true,
+      "resp": false,
+      "gi": false,
+      "cardio": false,
+      "hipoxia": false,
+      "hipotensao": false,
+      "neuro": false
     },
     "expected": {
       "raw": {
@@ -11,16 +23,42 @@
       "level": "mid",
       "verdict": "Grau 1"
     },
-    "originalInput": {
-      "pele": true
+    "recordedResult": {
+      "main": [
+        "1",
+        ""
+      ],
+      "label": "Grau de gravidade (Brown)",
+      "raw": {
+        "grau": 1
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Urticária e sibilância: grau 2",
-    "input": {
+    "id": "gravidade-da-anafilaxia",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Urticária e sibilância: grau 2",
+    "originalInput": {
       "pele": true,
       "resp": true
+    },
+    "input": {
+      "pele": true,
+      "resp": true,
+      "gi": false,
+      "cardio": false,
+      "hipoxia": false,
+      "hipotensao": false,
+      "neuro": false
     },
     "expected": {
       "raw": {
@@ -29,16 +67,41 @@
       "level": "high",
       "verdict": "Grau 2"
     },
-    "originalInput": {
-      "pele": true,
-      "resp": true
+    "recordedResult": {
+      "main": [
+        "2",
+        ""
+      ],
+      "label": "Grau de gravidade (Brown)",
+      "raw": {
+        "grau": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Vômitos sem lesões de pele: grau 2",
-    "input": {
+    "id": "gravidade-da-anafilaxia",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Vômitos sem lesões de pele: grau 2",
+    "originalInput": {
       "gi": true
+    },
+    "input": {
+      "gi": true,
+      "pele": false,
+      "resp": false,
+      "cardio": false,
+      "hipoxia": false,
+      "hipotensao": false,
+      "neuro": false
     },
     "expected": {
       "raw": {
@@ -46,17 +109,43 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "gi": true
+    "recordedResult": {
+      "main": [
+        "2",
+        ""
+      ],
+      "label": "Grau de gravidade (Brown)",
+      "raw": {
+        "grau": 2
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Urticária, sibilância e PAS 80 mmHg: grau 3",
-    "input": {
+    "id": "gravidade-da-anafilaxia",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+    "originalInput": {
       "pele": true,
       "resp": true,
       "hipotensao": true
+    },
+    "input": {
+      "pele": true,
+      "resp": true,
+      "hipotensao": true,
+      "gi": false,
+      "cardio": false,
+      "hipoxia": false,
+      "neuro": false
     },
     "expected": {
       "raw": {
@@ -65,20 +154,53 @@
       "level": "high",
       "verdict": "Grau 3"
     },
-    "originalInput": {
-      "pele": true,
-      "resp": true,
-      "hipotensao": true
+    "recordedResult": {
+      "main": [
+        "3",
+        ""
+      ],
+      "label": "Grau de gravidade (Brown)",
+      "raw": {
+        "grau": 3
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Nenhum achado: erro",
-    "input": {},
+    "id": "gravidade-da-anafilaxia",
+    "kind": "native-source-reference",
+    "index": 4,
+    "name": "Nenhum achado: erro",
+    "originalInput": [],
+    "input": {
+      "pele": false,
+      "resp": false,
+      "gi": false,
+      "cardio": false,
+      "hipoxia": false,
+      "hipotensao": false,
+      "neuro": false
+    },
     "expected": {
       "error": true
     },
-    "originalInput": [],
-    "expandedZeroOptions": []
+    "recordedResult": {
+      "error": "Marque ao menos um achado."
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

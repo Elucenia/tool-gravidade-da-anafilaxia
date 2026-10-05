@@ -1,0 +1,89 @@
+<!-- ELUCENIA technical documentation · gravidade-da-anafilaxia · ja · no clinical/professional/rights approval -->
+
+# アナフィラキシーの重症度（Brown）
+
+[条件・出典・許諾](https://elucenia.org/ja/tools/gravidade-da-anafilaxia)
+
+## 使い方
+
+ポータルでツールを使用するか、ローカルHTTPサーバー経由でindex.htmlを開いてください。言語を選択し、項目を入力して計算してください。
+
+## 入力項目と単位
+
+### 皮膚・皮下：全身紅斑、蕁麻疹、眼窩周囲浮腫または血管浮腫
+
+`pele`
+
+### 呼吸器：呼吸困難、吸気性喘鳴、喘鳴、胸・喉の締めつけ
+
+`resp`
+
+### 消化器：悪心、嘔吐、腹痛
+
+`gi`
+
+### 前失神（めまい）または発汗
+
+`cardio`
+
+### 低酸素血症（SpO₂ ≤ 92%）またはチアノーゼ
+
+`hipoxia`
+
+### 低血圧（成人の収縮期血圧 \< 90 mmHg）
+
+`hipotensao`
+
+### 神経障害：意識混乱、虚脱、意識消失または失禁
+
+`neuro`
+
+## 方法の版
+
+Brown 2004：3段階，最重症所見；SpO₂≤92/収縮期\<90/神経
+
+## 記載された計算式
+
+最も重い所見で分類：
+
+グレード1（軽度）：皮膚・皮下のみ。
+
+グレード2（中等度）：呼吸，心血管，消化管の徴候。
+
+グレード3（重度）：低酸素血症（SpO₂ ≤ 92%またはチアノーゼ），低血圧（収縮期\< 90 mmHg），神経障害。
+
+## 限界・対象集団
+
+Brown分類は、救急における全身性過敏反応で後ろ向きに研究されました。重症度は完全な診断定義でも、単独の治療ルールでもありません。数値の閾値とその版の定義は、方法の全文で確認する必要があります。徴候と適用条件を合計点だけで置き換えることはできません。
+
+## 参考文献
+
+- [Brown SGA. Clinical features and severity grading of anaphylaxis. J Allergy Clin Immunol, 2004.](https://doi.org/10.1016/j.jaci.2004.04.029)
+
+- [Cardona V et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J, 2020.](https://doi.org/10.1016/j.waojou.2020.100472)
+
+## 技術テストの再現
+
+このリポジトリのルートディレクトリでnode test.cjsを実行すると、記録された合成ケースを再実行できます。元の入力、期待結果、許容誤差は保持されています。技術テストは臨床的検証を意味しません。
+
+```sh
+node test.cjs
+```
+
+tool.jsonには出典、版、確認範囲が記録されています。examples.jsonには合成入力と期待結果が保持され、results.jsonには実際に得られた結果が記録されています。
+
+[記録・参考文献](../tool.json) · [JavaScriptコード](../calculator.js) · [参照ケース](../examples.json) · [results.json](../results.json)
+
+## 確認状況と使用条件
+
+独立した臨床レビューは実施されていません。
+
+このインターフェースは独自に作成した翻訳であり、公式版や認証済みの版ではありません。独立した臨床レビュー、専門家による言語レビュー、評価尺度等の権利許諾の確認は実施されていません。
+
+式または分類の結果です。解釈、対応、適用可能性は専門家による評価と選択した出典に依存します。
+
+## ライセンスと帰属表示
+
+Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
+
+ELUCENIA · Felipe Guedes · Copyright © 2026

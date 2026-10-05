@@ -1,0 +1,400 @@
+{
+  "id": "gravidade-da-anafilaxia",
+  "at": "2026-10-05T17:29:41.336Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+    "bytes": 5651,
+    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+  },
+  "cases": [
+    {
+      "name": "Urticária generalizada isolada: grau 1",
+      "input": {
+        "pele": true,
+        "resp": false,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "obtained": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "1",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.grau",
+          "expected": 1,
+          "obtained": 1,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grau",
+          "expected": 1,
+          "obtained": 1,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "1",
+          "obtained": "1",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Urticária e sibilância: grau 2",
+      "input": {
+        "pele": true,
+        "resp": true,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "obtained": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.grau",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grau",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "2",
+          "obtained": "2",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Vômitos sem lesões de pele: grau 2",
+      "input": {
+        "gi": true,
+        "pele": false,
+        "resp": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "obtained": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.grau",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grau",
+          "expected": 2,
+          "obtained": 2,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "2",
+          "obtained": "2",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+      "input": {
+        "pele": true,
+        "resp": true,
+        "hipotensao": true,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "neuro": false
+      },
+      "obtained": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "3",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.grau",
+          "expected": 3,
+          "obtained": 3,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.grau",
+          "expected": 3,
+          "obtained": 3,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "3",
+          "obtained": "3",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "",
+          "obtained": "",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Nenhum achado: erro",
+      "input": {
+        "pele": false,
+        "resp": false,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "obtained": {
+        "error": "Marque ao menos um achado.",
+        "code": "FORMULA_DOMAIN"
+      },
+      "checks": [
+        {
+          "at": "recorded-rejection",
+          "expected": "4xx with error and no result",
+          "obtained": {
+            "status": 422,
+            "error": "Marque ao menos um achado.",
+            "result": false
+          },
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 11,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

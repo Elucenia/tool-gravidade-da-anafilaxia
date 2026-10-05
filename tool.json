@@ -5,6 +5,7 @@
     "short": "Classificação em leve, moderada ou grave",
     "desc": "Classifique a gravidade de uma reação de hipersensibilidade generalizada ou anafilaxia em graus 1, 2 e 3 pelo sistema de Brown, com a conduta imediata.",
     "lead": "Classifica a gravidade das reações de hipersensibilidade generalizadas pelo achado mais grave, segundo o sistema de Brown (2004).",
+    "kind": "Calculadora",
     "spec": [
       "alergia-e-imunologia",
       "medicina-de-emergencia",
@@ -12,82 +13,51 @@
       "anestesiologia",
       "clinica-medica"
     ],
-    "tier": 1,
     "fields": [
       [
         "pele",
         "Pele e subcutâneo: eritema generalizado, urticária, edema periorbitário ou angioedema",
         "chk",
-        []
+        {}
       ],
       [
         "resp",
         "Respiratório: dispneia, estridor, sibilância, aperto no peito ou na garganta",
         "chk",
-        []
+        {}
       ],
       [
         "gi",
         "Gastrointestinal: náusea, vômitos, dor abdominal",
         "chk",
-        []
+        {}
       ],
       [
         "cardio",
         "Pré-síncope (tontura) ou sudorese",
         "chk",
-        []
+        {}
       ],
       [
         "hipoxia",
         "Hipoxemia (SpO₂ ≤ 92%) ou cianose",
         "chk",
-        []
+        {}
       ],
       [
         "hipotensao",
         "Hipotensão (PAS &lt; 90 mmHg no adulto)",
         "chk",
-        []
+        {}
       ],
       [
         "neuro",
         "Comprometimento neurológico: confusão, colapso, perda de consciência ou incontinência",
         "chk",
-        []
+        {}
       ]
     ],
     "formula": "<p>O grau é definido pelo achado mais grave:</p><ul><li><strong>Grau 1 (leve):</strong> apenas pele e subcutâneo.</li><li><strong>Grau 2 (moderado):</strong> sinais de envolvimento respiratório, cardiovascular ou gastrointestinal.</li><li><strong>Grau 3 (grave):</strong> hipoxemia (SpO₂ ≤ 92% ou cianose), hipotensão (PAS &lt; 90 mmHg) ou comprometimento neurológico.</li></ul>",
-    "table": [
-      [
-        "Grau",
-        "Achados",
-        "Conduta"
-      ],
-      [
-        "1 (leve)",
-        "Pele e subcutâneo",
-        "Anti-histamínico, observação; adrenalina se houver progressão"
-      ],
-      [
-        "2 (moderado)",
-        "Respiratório, cardiovascular ou gastrointestinal",
-        "Adrenalina IM imediata"
-      ],
-      [
-        "3 (grave)",
-        "Hipoxemia, hipotensão ou alteração neurológica",
-        "Adrenalina IM imediata, oxigênio, expansão volêmica, monitorização; considerar adrenalina IV em infusão"
-      ]
-    ],
-    "table_note": "Na coorte de Brown, hipotensão e hipoxemia foram os marcadores de gravidade; reações de grau 1 correspondem a hipersensibilidade generalizada sem critério de anafilaxia.",
-    "tips": [
-      "O diagnóstico de anafilaxia usa os critérios da WAO 2020; esta escala mede a gravidade, não substitui o diagnóstico.",
-      "Adrenalina IM (1 mg/mL) na face anterolateral da coxa: 0,01 mg/kg, até 0,5 mg no adulto e 0,3 mg na criança; repetir a cada 5 a 15 minutos se necessário.",
-      "Não espere hipotensão para dar adrenalina: sintomas respiratórios ou gastrointestinais após exposição a alérgeno conhecido já indicam o uso.",
-      "Anti-histamínico e corticoide não substituem a adrenalina e não previnem a reação bifásica; observe por 6 a 24 horas conforme a gravidade.",
-      "Na alta, prescreva autoinjetor de adrenalina (quando disponível), plano de ação escrito e encaminhe ao alergista."
-    ],
     "sources": [
       [
         "Brown SGA. Clinical features and severity grading of anaphylaxis. J Allergy Clin Immunol, 2004.",
@@ -161,9 +131,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -172,17 +139,533 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T20:53:44.588Z",
+      "total": 127,
+      "passed": 127,
+      "sourceRowCount": 127,
+      "uniqueApiInputCount": 127,
+      "sourceContextCount": 127,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "scope": "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "9fdbe87faa79b68c65e45f3a18b3599bbf540de2ed3c9014c6a08ab34fdb9a1a",
+        "total": 127,
+        "bankRowCount": 127,
+        "uniqueApiInputCount": 127,
+        "sourceContextCount": 127,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/six-primary-independent-expectations-final30.json",
+            "sha256": "7767013002c928ad8b35fabfec35fa3edde886d78f8152cfb3624a112e1732a6"
+          },
+          {
+            "file": "reports/review-20261003/six-primary-source-review-final30.json",
+            "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+          "sha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0"
+        },
+        "packagingRequirement": "All bounded raw-only rows byte exact, original202 expectations and separate1178-peer witness receipt preserved"
+      },
+      "sources": [
+        {
+          "review": {
+            "file": "reports/review-20261003/six-primary-source-review-final30.json",
+            "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+          },
+          "item": {
+            "id": "gravidade-da-anafilaxia",
+            "sourceIds": [
+              "brown-2004-abstract",
+              "brown-2004-reproduction",
+              "brown-2023-table9"
+            ],
+            "executedScope": "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+            "inputPopulation": "Retrospective systemic hypersensitivity emergency reactions; grading is not anaphylaxis diagnosis or a stand-alone treatment rule.",
+            "sourceSupportedLimits": "Already assessed signs are used.2023 adapted official Table9 clarifies≤92% hypoxia and adult<90mmHg hypotension; the calculator takes flags rather than measuring these boundaries.",
+            "findings": [],
+            "unchecked": [
+              "Direct original Brown publisher table scan",
+              "Pediatric blood-pressure adaptation",
+              "Underlying allergen/generalizability",
+              "Diagnosis and epinephrine treatment"
+            ],
+            "current": {
+              "id": "gravidade-da-anafilaxia",
+              "recordSha256": "1bd63cdca7f780ba18427c1e9e9fbd0fef52601009dfcdcda8d5d38084c3b03d",
+              "frozenRecordFile": "reports/review-20261003/six-primary-frozen-inputs-final30/selected-records/gravidade-da-anafilaxia.json",
+              "frozenRecordSha256": "456fb9dd24891b432bab214bca84ce846cdc18952f9ada57101ce9fe4f34c796",
+              "methodVersion": "Brown 2004:3 graus, achado maisgrave; Sp O 2≤92/PAS<90/neurológico",
+              "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+              "adapters": [
+                {
+                  "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                  "bytes": 5651,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                },
+                {
+                  "file": "apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                  "bytes": 5651,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                },
+                {
+                  "file": "apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                  "bytes": 5651,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                  "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                }
+              ]
+            },
+            "clinicalApproval": "not-performed",
+            "professionalLanguageApproval": "not-performed",
+            "rightsApproval": "not-performed",
+            "fullMethodConformance": "not-performed"
+          },
+          "sources": [
+            {
+              "id": "brown-2004-abstract",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+              "doi": "10.1016/j.jaci.2004.04.029",
+              "edition": "Brown2004 JACI114:371–376",
+              "access": "Primary indexed abstract read; original full article publisher not acquired",
+              "readScope": "Retrospective emergency-department systemic hypersensitivity reactions;1149 in the abstract. Severity classification is distinct from diagnostic criteria or treatment decisions.",
+              "tableRead": false,
+              "visualPdfRead": false
+            },
+            {
+              "id": "brown-2004-reproduction",
+              "url": "https://studyres.com/doc/17918870/clinical-features-and-severity-grading-of-anaphylaxis",
+              "edition": "Third-party transcription of Brown2004 original",
+              "access": "Web text transcription directly read; Python acquisition403, no immutable publisher PDF",
+              "readScope": "Methods and severity table text; Royal Hobart emergency department1990–1999, ages0–96, uncertainty/exclusions and classified subset. OCR comparator typography is not accepted as a visual proof of the original table.",
+              "tableRead": "text-only",
+              "visualPdfRead": false,
+              "excluded": "No original scanned-table verification or unrestricted clinical eligibility inference"
+            },
+            {
+              "id": "brown-2023-table9",
+              "url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf",
+              "edition": "AAAAI/ACAAI2023 practice parameter Table9, adapted from Brown2004",
+              "access": "Official society PDF acquired; Table9 printed15/PDF15 visually read",
+              "document": {
+                "file": "six-primary-documents-final30/anaphylaxis-practice-2023.pdf",
+                "bytes": 3882210,
+                "sha256": "a4177e78a117c34569977b699e0d204d923d68d9303917c39d170a52ede445b2"
+              },
+              "renderedPages": [
+                {
+                  "file": "six-primary-documents-final30/anaphylaxis-practice-2023-p15.png",
+                  "bytes": 924664,
+                  "sha256": "825812622315c064a2ff9731d39b39862f112eaa478e2b9b9a89cb9b146714ec"
+                }
+              ],
+              "readScope": "Mild skin-only; moderate respiratory/cardiovascular/gastrointestinal involvement; severe hypoxia(SpO₂≤92% or cyanosis), adult systolic pressure<90mmHg or neurologic involvement. The neighboring Dribin figure is a different instrument and is not substituted for Brown.",
+              "tableRead": true,
+              "visualPdfRead": true,
+              "excluded": "No pediatric blood-pressure threshold, diagnosis, adverse-outcome prognosis or epinephrine management proof"
+            }
+          ]
+        }
+      ],
+      "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+      "evidenceSha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0",
+      "independentPeer": {
+        "status": "passed",
+        "file": "reports/review-20261003/six-source30-independent-peer-verify.json",
+        "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+        "scope": "Independent selected source expectations202 and additional1178 own witnesses; primary access limitations and clinical/rubric exclusions remain explicit.",
+        "sourcePeerInputCount": 1178,
+        "packagingPeer": "pending",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+          "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+          "app": "website"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+          "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+          "app": "dashboard"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+          "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+          "app": "command-center"
+        }
+      ],
+      "qualifications": [
+        "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+        "Direct original Brown publisher table scan",
+        "Pediatric blood-pressure adaptation",
+        "Underlying allergen/generalizability",
+        "Diagnosis and epinephrine treatment",
+        "A technical pass is limited to the listed public raw fields. Patient examination, diagnosis, eligibility, rubric administration, prognosis, outcome, management, professional/official translation, rights and full-method conformance remain not-performed.",
+        "Four selected-code/class mapping tools are not validated as clinical raters by code-identity tests. Brown and TG18 require preaffirmed findings/diagnosis; the calculator does not establish them.",
+        "Bethesda risk means/ranges and all private clinical/mortality/recurrence outputs are excluded, even if observed in the donor report.",
+        "Three fresh Node/VM raw-only adapter replays plus original isolated Chromium observations; no fresh served UI or deployment binding.",
+        "Source28/29 and documentary-source30 recipes are separately owned; compose per ID and recalculate totals without stale whole-catalog replacement."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Brown 2004:3 graus, achado maisgrave; Sp O 2≤92/PAS<90/neurológico",
+    "implementationVersion": "gravidade-da-anafilaxia@native-2026-10-03+eb5f0efba0c6",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "O grau é definido pelo achado mais grave: Grau 1 (leve): apenas pele e subcutâneo. Grau 2 (moderado): sinais de envolvimento respiratório, cardiovascular ou gastrointestinal. Grau 3 (grave): hipoxemia (SpO₂ ≤ 92% ou cianose), hipotensão (PAS < 90 mmHg) ou comprometimento neurológico.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "pele",
+            "label": "Pele e subcutâneo: eritema generalizado, urticária, edema periorbitário ou angioedema",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "resp",
+            "label": "Respiratório: dispneia, estridor, sibilância, aperto no peito ou na garganta",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "gi",
+            "label": "Gastrointestinal: náusea, vômitos, dor abdominal",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "cardio",
+            "label": "Pré-síncope (tontura) ou sudorese",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hipoxia",
+            "label": "Hipoxemia (SpO₂ ≤ 92%) ou cianose",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "hipotensao",
+            "label": "Hipotensão (PAS &lt; 90 mmHg no adulto)",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "neuro",
+            "label": "Comprometimento neurológico: confusão, colapso, perda de consciência ou incontinência",
+            "type": "chk",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "3d8262e2a60abac5c82e3343e60c3b7718a654d089bfe06deccf74a50c8868ba"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Brown SGA. Clinical features and severity grading of anaphylaxis. J Allergy Clin Immunol, 2004.",
+          "url": "https://doi.org/10.1016/j.jaci.2004.04.029",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Clinical features and severity grading of anaphylaxis.",
+            "year": "2004",
+            "firstPublicationDate": "2004-08-01",
+            "doi": "10.1016/j.jaci.2004.04.029",
+            "pmid": "15316518",
+            "journal": "The Journal of allergy and clinical immunology",
+            "authors": "Brown SG."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "ce0bb3a73d894e052eaee3fb416917367906bb3e89ea3ef0a9ce30dd4fedd0f9",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Cardona V et al. World Allergy Organization Anaphylaxis Guidance 2020. World Allergy Organ J, 2020.",
+          "url": "https://doi.org/10.1016/j.waojou.2020.100472",
+          "class": "primary-publication-full-text-retrieved",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": true,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "World allergy organization anaphylaxis guidance 2020.",
+            "year": "2020",
+            "firstPublicationDate": "2020-10-30",
+            "doi": "10.1016/j.waojou.2020.100472",
+            "pmid": "33204386",
+            "pmcid": "PMC7607509",
+            "journal": "The World Allergy Organization journal",
+            "authors": "Cardona V, Ansotegui IJ, Ebisawa M, El-Gamal Y, Fernandez Rivas M, Fineman S, Geller M, Gonzalez-Estrada A, Greenberger PA, Sanchez Borges M, Senna G, Sheikh A, Tanno LK, Thong BY, Turner PJ, Worm M."
+          },
+          "primaryPublicationUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7607509/",
+          "abstractAvailable": true,
+          "fullTextSha256": "1d6a6919aeb0a10e15ed82d92c8866f3946253980c334894bfd873e45aaa5726",
+          "abstractSha256": "656866850e2b268c545acc5c4c283269fa44cd7661cecf273fb85c3322e5e122",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T20:53:44.588Z",
+        "total": 127,
+        "passed": 127,
+        "sourceRowCount": 127,
+        "uniqueApiInputCount": 127,
+        "sourceContextCount": 127,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "scope": "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "9fdbe87faa79b68c65e45f3a18b3599bbf540de2ed3c9014c6a08ab34fdb9a1a",
+          "total": 127,
+          "bankRowCount": 127,
+          "uniqueApiInputCount": 127,
+          "sourceContextCount": 127,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/six-primary-independent-expectations-final30.json",
+              "sha256": "7767013002c928ad8b35fabfec35fa3edde886d78f8152cfb3624a112e1732a6"
+            },
+            {
+              "file": "reports/review-20261003/six-primary-source-review-final30.json",
+              "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+            "sha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0"
+          },
+          "packagingRequirement": "All bounded raw-only rows byte exact, original202 expectations and separate1178-peer witness receipt preserved"
+        },
+        "sources": [
+          {
+            "review": {
+              "file": "reports/review-20261003/six-primary-source-review-final30.json",
+              "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+            },
+            "item": {
+              "id": "gravidade-da-anafilaxia",
+              "sourceIds": [
+                "brown-2004-abstract",
+                "brown-2004-reproduction",
+                "brown-2023-table9"
+              ],
+              "executedScope": "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+              "inputPopulation": "Retrospective systemic hypersensitivity emergency reactions; grading is not anaphylaxis diagnosis or a stand-alone treatment rule.",
+              "sourceSupportedLimits": "Already assessed signs are used.2023 adapted official Table9 clarifies≤92% hypoxia and adult<90mmHg hypotension; the calculator takes flags rather than measuring these boundaries.",
+              "findings": [],
+              "unchecked": [
+                "Direct original Brown publisher table scan",
+                "Pediatric blood-pressure adaptation",
+                "Underlying allergen/generalizability",
+                "Diagnosis and epinephrine treatment"
+              ],
+              "current": {
+                "id": "gravidade-da-anafilaxia",
+                "recordSha256": "1bd63cdca7f780ba18427c1e9e9fbd0fef52601009dfcdcda8d5d38084c3b03d",
+                "frozenRecordFile": "reports/review-20261003/six-primary-frozen-inputs-final30/selected-records/gravidade-da-anafilaxia.json",
+                "frozenRecordSha256": "456fb9dd24891b432bab214bca84ce846cdc18952f9ada57101ce9fe4f34c796",
+                "methodVersion": "Brown 2004:3 graus, achado maisgrave; Sp O 2≤92/PAS<90/neurológico",
+                "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+                "adapters": [
+                  {
+                    "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                    "bytes": 5651,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                  },
+                  {
+                    "file": "apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                    "bytes": 5651,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                  },
+                  {
+                    "file": "apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+                    "bytes": 5651,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+                    "currentSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+                  }
+                ]
+              },
+              "clinicalApproval": "not-performed",
+              "professionalLanguageApproval": "not-performed",
+              "rightsApproval": "not-performed",
+              "fullMethodConformance": "not-performed"
+            },
+            "sources": [
+              {
+                "id": "brown-2004-abstract",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
+                "doi": "10.1016/j.jaci.2004.04.029",
+                "edition": "Brown2004 JACI114:371–376",
+                "access": "Primary indexed abstract read; original full article publisher not acquired",
+                "readScope": "Retrospective emergency-department systemic hypersensitivity reactions;1149 in the abstract. Severity classification is distinct from diagnostic criteria or treatment decisions.",
+                "tableRead": false,
+                "visualPdfRead": false
+              },
+              {
+                "id": "brown-2004-reproduction",
+                "url": "https://studyres.com/doc/17918870/clinical-features-and-severity-grading-of-anaphylaxis",
+                "edition": "Third-party transcription of Brown2004 original",
+                "access": "Web text transcription directly read; Python acquisition403, no immutable publisher PDF",
+                "readScope": "Methods and severity table text; Royal Hobart emergency department1990–1999, ages0–96, uncertainty/exclusions and classified subset. OCR comparator typography is not accepted as a visual proof of the original table.",
+                "tableRead": "text-only",
+                "visualPdfRead": false,
+                "excluded": "No original scanned-table verification or unrestricted clinical eligibility inference"
+              },
+              {
+                "id": "brown-2023-table9",
+                "url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf",
+                "edition": "AAAAI/ACAAI2023 practice parameter Table9, adapted from Brown2004",
+                "access": "Official society PDF acquired; Table9 printed15/PDF15 visually read",
+                "document": {
+                  "file": "six-primary-documents-final30/anaphylaxis-practice-2023.pdf",
+                  "bytes": 3882210,
+                  "sha256": "a4177e78a117c34569977b699e0d204d923d68d9303917c39d170a52ede445b2"
+                },
+                "renderedPages": [
+                  {
+                    "file": "six-primary-documents-final30/anaphylaxis-practice-2023-p15.png",
+                    "bytes": 924664,
+                    "sha256": "825812622315c064a2ff9731d39b39862f112eaa478e2b9b9a89cb9b146714ec"
+                  }
+                ],
+                "readScope": "Mild skin-only; moderate respiratory/cardiovascular/gastrointestinal involvement; severe hypoxia(SpO₂≤92% or cyanosis), adult systolic pressure<90mmHg or neurologic involvement. The neighboring Dribin figure is a different instrument and is not substituted for Brown.",
+                "tableRead": true,
+                "visualPdfRead": true,
+                "excluded": "No pediatric blood-pressure threshold, diagnosis, adverse-outcome prognosis or epinephrine management proof"
+              }
+            ]
+          }
+        ],
+        "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+        "evidenceSha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0",
+        "independentPeer": {
+          "status": "passed",
+          "file": "reports/review-20261003/six-source30-independent-peer-verify.json",
+          "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+          "scope": "Independent selected source expectations202 and additional1178 own witnesses; primary access limitations and clinical/rubric exclusions remain explicit.",
+          "sourcePeerInputCount": 1178,
+          "packagingPeer": "pending",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+            "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+            "app": "website"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+            "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+            "app": "dashboard"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+            "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+            "app": "command-center"
+          }
+        ],
+        "qualifications": [
+          "Worst affirmed involvement predicate for all127 nonempty seven-flag patterns. A separate all-false rejection probe is not counted as a source severity grade.",
+          "Direct original Brown publisher table scan",
+          "Pediatric blood-pressure adaptation",
+          "Underlying allergen/generalizability",
+          "Diagnosis and epinephrine treatment",
+          "A technical pass is limited to the listed public raw fields. Patient examination, diagnosis, eligibility, rubric administration, prognosis, outcome, management, professional/official translation, rights and full-method conformance remain not-performed.",
+          "Four selected-code/class mapping tools are not validated as clinical raters by code-identity tests. Brown and TG18 require preaffirmed findings/diagnosis; the calculator does not establish them.",
+          "Bethesda risk means/ranges and all private clinical/mortality/recurrence outputs are excluded, even if observed in the donor report.",
+          "Three fresh Node/VM raw-only adapter replays plus original isolated Chromium observations; no fresh served UI or deployment binding.",
+          "Source28/29 and documentary-source30 recipes are separately owned; compose per ID and recalculate totals without stale whole-catalog replacement."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+    },
+    "limits": "A classificação Brown foi estudada retrospectivamente em reações de hipersensibilidade sistêmica na emergência. Gravidade não é uma definição completa de diagnóstico nem regra terapêutica isolada. Limiares numéricos e definições da versão devem ser conferidos no método integral; sinais e condições de aplicação não podem ser substituídos somente pelo total.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.001Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não mostra limiares locais de SpO 2 ≤ 92% ou PAS < 90 mmHg, todas as definições ou validação pediátrica. WAO 2020 é fonte distinta ainda não lida."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
+    "bytes": 5651,
+    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "2347990524095bbaab8d6f16b1c9c9f9e1b7a45624deb0d723363568c41f2abb",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "9f97be66834fbce28a358edbdf2e4366a67bc3123641b21010d064552d1c426a",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "9f97be66834fbce28a358edbdf2e4366a67bc3123641b21010d064552d1c426a",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
