@@ -87,3 +87,35 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Grad 1 (leicht): generalisierte Reaktion, auf Haut und Subkutis beschränkt
+
+Beobachten Sie die Progression: kutane Symptome können der Beteiligung anderer Systeme vorausgehen.
+
+
+### 2
+
+Grad 2 (mäßig): Beteiligung der Atemwege, des Herz-Kreislauf-Systems oder des Gastrointestinaltrakts ohne Hypoxämie, Hypotonie oder neurologische Beeinträchtigung
+
+Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.
+
+
+### 3
+
+Grad 2 (mäßig): Beteiligung der Atemwege, des Herz-Kreislauf-Systems oder des Gastrointestinaltrakts ohne Hypoxämie, Hypotonie oder neurologische Beeinträchtigung
+
+Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.
+
+
+### 4
+
+Grad 3 (schwer): Hypoxämie, Hypotonie oder neurologische Beeinträchtigung
+
+Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.
+

@@ -87,3 +87,35 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Grade 1 (léger) : réaction généralisée limitée à la peau et au tissu sous-cutané
+
+Observez la progression : les symptômes cutanés peuvent précéder l’atteinte d’autres systèmes.
+
+
+### 2
+
+Grade 2 (modéré) : atteinte respiratoire, cardiovasculaire ou gastro-intestinale sans hypoxémie, hypotension ou atteinte neurologique
+
+Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.
+
+
+### 3
+
+Grade 2 (modéré) : atteinte respiratoire, cardiovasculaire ou gastro-intestinale sans hypoxémie, hypotension ou atteinte neurologique
+
+Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.
+
+
+### 4
+
+Grade 3 (sévère) : hypoxémie, hypotension ou atteinte neurologique
+
+Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.
+

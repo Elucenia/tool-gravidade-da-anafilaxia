@@ -1,0 +1,268 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "gravidade-da-anafilaxia",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "6474558a95e05a1a600b72e7d1c0116ce4e21550",
+    "oldEngineSha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+    "currentEngineSha256": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Urticária generalizada isolada: grau 1",
+      "input": {
+        "pele": true,
+        "resp": false,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "publicOutput": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "1",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 1
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grau": 1
+        },
+        "level": "mid",
+        "verdict": "Grau 1"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "1",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "level": "mid",
+        "verdict": "Grau 1 (leve): reação generalizada restrita à pele e ao subcutâneo",
+        "note": "Observe a progressão: sintomas cutâneos podem preceder o envolvimento de outros sistemas.",
+        "raw": {
+          "grau": 1
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Urticária e sibilância: grau 2",
+      "input": {
+        "pele": true,
+        "resp": true,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "publicOutput": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grau": 2
+        },
+        "level": "high",
+        "verdict": "Grau 2"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "level": "high",
+        "verdict": "Grau 2 (moderada): envolvimento respiratório, cardiovascular ou gastrointestinal sem hipoxemia, hipotensão ou comprometimento neurológico",
+        "note": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+        "raw": {
+          "grau": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Vômitos sem lesões de pele: grau 2",
+      "input": {
+        "gi": true,
+        "pele": false,
+        "resp": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "publicOutput": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 2
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grau": 2
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "2",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "level": "high",
+        "verdict": "Grau 2 (moderada): envolvimento respiratório, cardiovascular ou gastrointestinal sem hipoxemia, hipotensão ou comprometimento neurológico",
+        "note": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+        "raw": {
+          "grau": 2
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+      "input": {
+        "pele": true,
+        "resp": true,
+        "hipotensao": true,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "neuro": false
+      },
+      "publicOutput": {
+        "id": "gravidade-da-anafilaxia",
+        "main": [
+          "3",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "raw": {
+          "grau": 3
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "grau": 3
+        },
+        "level": "high",
+        "verdict": "Grau 3"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "3",
+          ""
+        ],
+        "label": "Grau de gravidade (Brown)",
+        "level": "high",
+        "verdict": "Grau 3 (grave): hipoxemia, hipotensão ou comprometimento neurológico",
+        "note": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+        "raw": {
+          "grau": 3
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 4,
+      "name": "Nenhum achado: erro",
+      "input": {
+        "pele": false,
+        "resp": false,
+        "gi": false,
+        "cardio": false,
+        "hipoxia": false,
+        "hipotensao": false,
+        "neuro": false
+      },
+      "publicOutput": {
+        "error": "Marque ao menos um achado.",
+        "code": "FORMULA_DOMAIN"
+      },
+      "sourceExpected": {
+        "error": true
+      },
+      "state": "existing-rejection"
+    }
+  ]
+}

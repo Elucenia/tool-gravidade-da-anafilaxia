@@ -1,6 +1,6 @@
 {
   "id": "gravidade-da-anafilaxia",
-  "scope": "Exclusive report-owned R6-HTTP-linked candidate, read-only default test",
+  "scope": "Immutable package integrity; tests write no files",
   "files": [
     {
       "path": ".gitattributes",
@@ -24,8 +24,8 @@
     },
     {
       "path": "calculator.browser.js",
-      "bytes": 5651,
-      "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+      "bytes": 5856,
+      "sha256": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7"
     },
     {
       "path": "calculator.js",
@@ -39,8 +39,8 @@
     },
     {
       "path": "CODE-COMPONENTS.md",
-      "bytes": 1111,
-      "sha256": "80b462c0fb7f74972f9c660ac3742015a684326942a19849a69abd72095e5cf0"
+      "bytes": 1380,
+      "sha256": "9617a45c0897c51eed88da4ed4964aed686e47a1e81bce97c608f0f15e108a8e"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -49,68 +49,78 @@
     },
     {
       "path": "demo-runtime.js",
-      "bytes": 11656,
-      "sha256": "734da1ceff19b961423e1bb5d2c9eaafd18920b32cc4f331856f6065c9cfd2c9"
+      "bytes": 14286,
+      "sha256": "187cb0a3f2693707660f7fc69fc63ce5e30055a5ccdc621cc7945a0d3b1d2918"
     },
     {
       "path": "documentation/ar.md",
-      "bytes": 4309,
-      "sha256": "99a9f5934124c4d93e8315923d6a5e09619151aaf0d7e2c80aeec25c35b93c46"
+      "bytes": 6039,
+      "sha256": "a5a6eadfb770ca91709b6cc99c83c08470e82137064c629b9ad1b8fa7aac69d5"
     },
     {
       "path": "documentation/de.md",
-      "bytes": 3701,
-      "sha256": "fd9e317763f7c4dcd1a1e284c6278bc8c94b0431df6f17eb0a2304423e713a8b"
+      "bytes": 5077,
+      "sha256": "3978cc5b95c996ae36ffbe5e018023eb759e025a4b56b2bf03854cb49cb1bbd8"
     },
     {
       "path": "documentation/en.md",
-      "bytes": 3293,
-      "sha256": "a33b2a327ebd8350d4b2e2b81ee15a4ff8ab1bb9db961a3cc7331545a484cf01"
+      "bytes": 4505,
+      "sha256": "9e92014aef1ed81af9252286eb83717e405c6f5c3801a59e7cc31f9dd47dd9d5"
     },
     {
       "path": "documentation/es.md",
-      "bytes": 3586,
-      "sha256": "d176c9abc9806c516fe3646fb33ab71f7c17e128340b32ac4f12ed0436aa7792"
+      "bytes": 4846,
+      "sha256": "21a4ad46e775439e627ac9a9867afd382235728cc28a571bbc355802b95bbea6"
     },
     {
       "path": "documentation/fr.md",
-      "bytes": 3797,
-      "sha256": "66b72ff6e5b1ed8970b1d04cd1f87646fb5526f8738627b37a543678311cb2c8"
+      "bytes": 5162,
+      "sha256": "8dbd203e433526bce560c622801b158616078b660508b563ec2758b712d859ea"
     },
     {
       "path": "documentation/hi.md",
-      "bytes": 6330,
-      "sha256": "acb30b200bde9ed16982b6298903611966fed931a5af7cc6b6e1842f03758ade"
+      "bytes": 9117,
+      "sha256": "972bbaf7219a9281b98aec03029dccb669e9712006de611f5cf1947c3b3ea2aa"
     },
     {
       "path": "documentation/it.md",
-      "bytes": 3535,
-      "sha256": "c2a70202a3c721e4429d2eefb84189c495d80553fcf9ae72987afc11faf7bc72"
+      "bytes": 4830,
+      "sha256": "8e5d6dcb3cd72c405ef8dac2567224c729c261815ec8e7829f19980a1396fce4"
     },
     {
       "path": "documentation/ja.md",
-      "bytes": 3648,
-      "sha256": "ccf8bf00f4a30cf286742e3d17b547041278f6493af10fa59cb45187d085826e"
+      "bytes": 5030,
+      "sha256": "91190efbef0192d50e9bb22959cc79451b189e871bd747594d60c6874db198d0"
     },
     {
       "path": "documentation/pt-BR.md",
-      "bytes": 3400,
-      "sha256": "087489d56d3017a162cf9a205bddd82febbde7f97258ba207a78af649bf02d36"
+      "bytes": 4623,
+      "sha256": "470bec75ee42f1c4fe4b27ef4b374b2e41ca9d8c3cf0752e6f5206b2e0d1d5e1"
     },
     {
       "path": "documentation/zh.md",
-      "bytes": 2839,
-      "sha256": "199944ef2861e1488deb286b6f10218b219c11f272a85da7bf6ba63263c4ad26"
+      "bytes": 3882,
+      "sha256": "3274f87f665ffdd1d5c435a2b466907a512d5d5551d840cfdcab6a7fbe121e49"
+    },
+    {
+      "path": "documented-result-examples.json",
+      "bytes": 30979,
+      "sha256": "dd1b1e01a7e9344ae6e6450df32aa471e88d0b3877955167336136c9b6432075"
     },
     {
       "path": "engine/tool-code/gravidade-da-anafilaxia/calculator.js",
-      "bytes": 5651,
-      "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+      "bytes": 5856,
+      "sha256": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7"
     },
     {
       "path": "evidence/publication-base-reference.json",
       "bytes": 2823,
       "sha256": "f07445ff7c20ce727bdc2eb60cea97e5930e05311556dbaf3db88fb8e42aaca5"
+    },
+    {
+      "path": "evidence/publication-provenance-before-output-contract.json",
+      "bytes": 11887,
+      "sha256": "33bf399ea0ea4f04f7047cc644d1c9695119d19a228cbc579d67029de031c322"
     },
     {
       "path": "evidence/served-http-r6.json",
@@ -134,8 +144,8 @@
     },
     {
       "path": "localization.js",
-      "bytes": 46029,
-      "sha256": "fb321ba008e0a605f1aa7f444e6b1e601c31413c5cdf49324fba0797642b48d1"
+      "bytes": 62629,
+      "sha256": "8a186ad4319967e8d7b336d8ab8833d1ecd36b75e7570a04088db3473d12d698"
     },
     {
       "path": "METHOD-CODE-LICENSE.txt",
@@ -154,23 +164,23 @@
     },
     {
       "path": "package.json",
-      "bytes": 389,
-      "sha256": "e3cf1cd491ab88b22f86e8abb1125cea07dde54dfa69d5517056d343058650ea"
+      "bytes": 483,
+      "sha256": "294ba36d8a3c91aa0196fdef0d4081290f2c433e0b5d273c28f7daefcf242b7e"
     },
     {
       "path": "portal-formatters.browser.js",
-      "bytes": 31300,
-      "sha256": "d8522ffe0b858012dfd25e5e8d10fe2eefec977f2bdb612be5cbadf5c4bed9f3"
+      "bytes": 38687,
+      "sha256": "cf0668f6fd44a80a3e4064915cf2da02d2203a9596bd39a9a0a6025fb12e17f4"
     },
     {
       "path": "publication-provenance.json",
-      "bytes": 11887,
-      "sha256": "33bf399ea0ea4f04f7047cc644d1c9695119d19a228cbc579d67029de031c322"
+      "bytes": 6377,
+      "sha256": "19391043912728b59b8876d8bc651d966b007d60987eb6b3af721001dcac088f"
     },
     {
       "path": "README.md",
-      "bytes": 3172,
-      "sha256": "b16ca526f064df012d1c4f4f410400fb904cc8e13dc1d4681fda1846b931024c"
+      "bytes": 3761,
+      "sha256": "50b57ea949b561a978c4305b66d98e0e4c06e81e3055a98d3c7e028c4ec7e9c1"
     },
     {
       "path": "rejections.json",
@@ -188,9 +198,24 @@
       "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
     },
     {
+      "path": "source-result-contract.json",
+      "bytes": 7643,
+      "sha256": "f996facf1e34dbb8b42843270e5c9dc14de57506acf2a60e7b37be6ac0103142"
+    },
+    {
       "path": "SOURCE-RIGHTS-REVIEW.md",
       "bytes": 1632,
       "sha256": "dc4aab180dd57a8c550947244cbf6fbcc598d88ab5d910bfb62c99713f49690f"
+    },
+    {
+      "path": "test-presentation-contract.cjs",
+      "bytes": 1923,
+      "sha256": "a4a1734ea3d00c17ffeed7abbd605663459b7c190b695d2396cc58da93215cec"
+    },
+    {
+      "path": "test-source-result-contract.cjs",
+      "bytes": 1416,
+      "sha256": "cbadaf0576ecc2884c7523902880d2068e3a9b6b63df418359ab42219af2e386"
     },
     {
       "path": "test.cjs",
@@ -199,8 +224,8 @@
     },
     {
       "path": "tool.json",
-      "bytes": 34831,
-      "sha256": "6a8f30d50c2e8a0f59fd07b24f72d9ca1aa514f398d261e369fa8e8b79bf0f00"
+      "bytes": 36335,
+      "sha256": "e8aeba61ff5148bc8cc42619d3ac9eeee18121246cf01a36ff48f99b4b2528d2"
     }
   ]
 }

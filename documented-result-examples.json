@@ -1,0 +1,707 @@
+{
+  "id": "gravidade-da-anafilaxia",
+  "implementationVersion": "gravidade-da-anafilaxia@native-2026-10-05+6fa0f563c3cc",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grau 1 (leve): reação generalizada restrita à pele e ao subcutâneo",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Observe a progressão: sintomas cutâneos podem preceder o envolvimento de outros sistemas.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grau 2 (moderada): envolvimento respiratório, cardiovascular ou gastrointestinal sem hipoxemia, hipotensão ou comprometimento neurológico",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grau 2 (moderada): envolvimento respiratório, cardiovascular ou gastrointestinal sem hipoxemia, hipotensão ou comprometimento neurológico",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grau 3 (grave): hipoxemia, hipotensão ou comprometimento neurológico",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg no adulto, 0,3 mg na criança) na face anterolateral da coxa, sem atraso; repetir em 5 a 15 minutos se necessário.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 1 (mild): generalized reaction limited to the skin and subcutaneous tissue",
+            "locale": "en",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "Observe the progression: cutaneous symptoms may precede involvement of other systems.",
+            "locale": "en",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 2 (moderate): respiratory, cardiovascular, or gastrointestinal involvement without hypoxemia, hypotension, or neurological impairment",
+            "locale": "en",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.",
+            "locale": "en",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 2 (moderate): respiratory, cardiovascular, or gastrointestinal involvement without hypoxemia, hypotension, or neurological impairment",
+            "locale": "en",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.",
+            "locale": "en",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 3 (severe): hypoxemia, hypotension, or neurological impairment",
+            "locale": "en",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.",
+            "locale": "en",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 1 (leve): reacción generalizada restringida a la piel y al tejido subcutáneo",
+            "locale": "es",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "Observe la progresión: los síntomas cutáneos pueden preceder la afectación de otros sistemas.",
+            "locale": "es",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 2 (moderada): afectación respiratoria, cardiovascular o gastrointestinal sin hipoxemia, hipotensión ni compromiso neurológico",
+            "locale": "es",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg en el adulto, 0,3 mg en el niño) en la cara anterolateral del muslo, sin demora; repetir en 5 a 15 minutos si es necesario.",
+            "locale": "es",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 2 (moderada): afectación respiratoria, cardiovascular o gastrointestinal sin hipoxemia, hipotensión ni compromiso neurológico",
+            "locale": "es",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg en el adulto, 0,3 mg en el niño) en la cara anterolateral del muslo, sin demora; repetir en 5 a 15 minutos si es necesario.",
+            "locale": "es",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 3 (grave): hipoxemia, hipotensión o compromiso neurológico",
+            "locale": "es",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "Adrenalina intramuscular 0,01 mg/kg (máximo 0,5 mg en el adulto, 0,3 mg en el niño) en la cara anterolateral del muslo, sin demora; repetir en 5 a 15 minutos si es necesario.",
+            "locale": "es",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 1 (léger) : réaction généralisée limitée à la peau et au tissu sous-cutané",
+            "locale": "fr",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "Observez la progression : les symptômes cutanés peuvent précéder l’atteinte d’autres systèmes.",
+            "locale": "fr",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 2 (modéré) : atteinte respiratoire, cardiovasculaire ou gastro-intestinale sans hypoxémie, hypotension ou atteinte neurologique",
+            "locale": "fr",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.",
+            "locale": "fr",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 2 (modéré) : atteinte respiratoire, cardiovasculaire ou gastro-intestinale sans hypoxémie, hypotension ou atteinte neurologique",
+            "locale": "fr",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.",
+            "locale": "fr",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grade 3 (sévère) : hypoxémie, hypotension ou atteinte neurologique",
+            "locale": "fr",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "Adrénaline intramusculaire 0,01 mg/kg (maximum 0,5 mg chez l’adulte, 0,3 mg chez l’enfant) dans la face antérolatérale de la cuisse, sans délai ; répéter en 5 à 15 minutes si nécessaire.",
+            "locale": "fr",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grad 1 (leicht): generalisierte Reaktion, auf Haut und Subkutis beschränkt",
+            "locale": "de",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "Beobachten Sie die Progression: kutane Symptome können der Beteiligung anderer Systeme vorausgehen.",
+            "locale": "de",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grad 2 (mäßig): Beteiligung der Atemwege, des Herz-Kreislauf-Systems oder des Gastrointestinaltrakts ohne Hypoxämie, Hypotonie oder neurologische Beeinträchtigung",
+            "locale": "de",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.",
+            "locale": "de",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grad 2 (mäßig): Beteiligung der Atemwege, des Herz-Kreislauf-Systems oder des Gastrointestinaltrakts ohne Hypoxämie, Hypotonie oder neurologische Beeinträchtigung",
+            "locale": "de",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.",
+            "locale": "de",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grad 3 (schwer): Hypoxämie, Hypotonie oder neurologische Beeinträchtigung",
+            "locale": "de",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "Intramuskuläres Adrenalin 0,01 mg/kg (maximal 0,5 mg beim Erwachsenen, 0,3 mg beim Kind) in den anterolateralen Oberschenkel, ohne Verzögerung; bei Bedarf nach 5 bis 15 Minuten wiederholen.",
+            "locale": "de",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 1 (lieve): reazione generalizzata limitata alla cute e al sottocutaneo",
+            "locale": "it",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "Osservare la progressione: i sintomi cutanei possono precedere il coinvolgimento di altri sistemi.",
+            "locale": "it",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 2 (moderato): interessamento respiratorio, cardiovascolare o gastrointestinale senza ipossiemia, ipotensione o compromissione neurologica",
+            "locale": "it",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.",
+            "locale": "it",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 2 (moderato): interessamento respiratorio, cardiovascolare o gastrointestinale senza ipossiemia, ipotensione o compromissione neurologica",
+            "locale": "it",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.",
+            "locale": "it",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Grado 3 (grave): ipossiemia, ipotensione o compromissione neurologica",
+            "locale": "it",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.",
+            "locale": "it",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الدرجة 1 (خفيف): تفاعل معمّم يقتصر على الجلد والأنسجة تحت الجلد",
+            "locale": "ar",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "لاحظ التقدم: قد تسبق الأعراض الجلدية إصابة أجهزة أخرى.",
+            "locale": "ar",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الدرجة 2 (متوسطة): إصابة تنفسية أو قلبية وعائية أو هضمية دون نقص أكسجة أو انخفاض ضغط الدم أو اختلال عصبي",
+            "locale": "ar",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "إبينفرين عضلي 0,01 mg/kg (الحد الأقصى 0,5 mg لدى البالغ، 0,3 mg لدى الطفل) في الوجه الأمامي الوحشي للفخذ، دون تأخير؛ يُكرر خلال 5 إلى 15 دقيقة إذا لزم الأمر.",
+            "locale": "ar",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الدرجة 2 (متوسطة): إصابة تنفسية أو قلبية وعائية أو هضمية دون نقص أكسجة أو انخفاض ضغط الدم أو اختلال عصبي",
+            "locale": "ar",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "إبينفرين عضلي 0,01 mg/kg (الحد الأقصى 0,5 mg لدى البالغ، 0,3 mg لدى الطفل) في الوجه الأمامي الوحشي للفخذ، دون تأخير؛ يُكرر خلال 5 إلى 15 دقيقة إذا لزم الأمر.",
+            "locale": "ar",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "الدرجة 3 (شديدة): نقص الأكسجة أو انخفاض ضغط الدم أو اختلال عصبي",
+            "locale": "ar",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "إبينفرين عضلي 0,01 mg/kg (الحد الأقصى 0,5 mg لدى البالغ، 0,3 mg لدى الطفل) في الوجه الأمامي الوحشي للفخذ، دون تأخير؛ يُكرر خلال 5 إلى 15 دقيقة إذا لزم الأمر.",
+            "locale": "ar",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "1级（轻度）：全身性反应仅限于皮肤和皮下组织",
+            "locale": "zh",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "注意病情进展：皮肤症状可能先于其他系统受累。",
+            "locale": "zh",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "2级（中度）：有呼吸、心血管或胃肠受累，但无低氧血症、低血压或神经功能受损",
+            "locale": "zh",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "肌内肾上腺素 0,01 mg/kg（成人最大 0,5 mg，儿童 0,3 mg），注射于大腿前外侧，不得延误；如有必要，5 至 15 分钟后重复。",
+            "locale": "zh",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "2级（中度）：有呼吸、心血管或胃肠受累，但无低氧血症、低血压或神经功能受损",
+            "locale": "zh",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "肌内肾上腺素 0,01 mg/kg（成人最大 0,5 mg，儿童 0,3 mg），注射于大腿前外侧，不得延误；如有必要，5 至 15 分钟后重复。",
+            "locale": "zh",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "3级（重度）：低氧血症、低血压或神经功能受损",
+            "locale": "zh",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "肌内肾上腺素 0,01 mg/kg（成人最大 0,5 mg，儿童 0,3 mg），注射于大腿前外侧，不得延误；如有必要，5 至 15 分钟后重复。",
+            "locale": "zh",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "グレード1（軽度）：皮膚および皮下組織に限局した全身反応",
+            "locale": "ja",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "進行に注意してください：皮膚症状が他の系統の関与に先行することがあります。",
+            "locale": "ja",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "グレード2（中等度）：低酸素血症、低血圧、または神経学的障害を伴わない呼吸器、心血管、または消化器の関与",
+            "locale": "ja",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "筋肉内アドレナリン 0,01 mg/kg（成人では最大 0,5 mg、小児では0,3 mg）を大腿前外側に、遅滞なく投与する；必要に応じて5～15分後に反復する。",
+            "locale": "ja",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "グレード2（中等度）：低酸素血症、低血圧、または神経学的障害を伴わない呼吸器、心血管、または消化器の関与",
+            "locale": "ja",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "筋肉内アドレナリン 0,01 mg/kg（成人では最大 0,5 mg、小児では0,3 mg）を大腿前外側に、遅滞なく投与する；必要に応じて5～15分後に反復する。",
+            "locale": "ja",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "グレード3（重症）：低酸素血症、低血圧、または神経学的障害",
+            "locale": "ja",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "筋肉内アドレナリン 0,01 mg/kg（成人では最大 0,5 mg、小児では0,3 mg）を大腿前外側に、遅滞なく投与する；必要に応じて5～15分後に反復する。",
+            "locale": "ja",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Urticária generalizada isolada: grau 1",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ग्रेड 1 (हल्का): त्वचा और उपचर्म ऊतक तक सीमित सामान्यीकृत प्रतिक्रिया",
+            "locale": "hi",
+            "template": "documented-authored-a889b65a63236c715966"
+          },
+          "note": {
+            "text": "प्रगति पर ध्यान दें: त्वचा संबंधी लक्षण अन्य प्रणालियों की भागीदारी से पहले हो सकते हैं।",
+            "locale": "hi",
+            "template": "documented-authored-7af0ac322b81b1122914"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Urticária e sibilância: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ग्रेड 2 (मध्यम): हाइपोक्सेमिया, हाइपोटेंशन, या तंत्रिका संबंधी हानि के बिना श्वसन, हृदयवाहिकीय, या जठरांत्रीय संलिप्तता",
+            "locale": "hi",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "इंट्रामस्क्युलर एड्रेनालिन 0,01 mg/kg (वयस्क में अधिकतम 0,5 mg, बच्चे में 0,3 mg) जांघ के अग्रपार्श्व भाग में, बिना देरी के; आवश्यकता होने पर 5 से 15 मिनट में दोहराएँ।",
+            "locale": "hi",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Vômitos sem lesões de pele: grau 2",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ग्रेड 2 (मध्यम): हाइपोक्सेमिया, हाइपोटेंशन, या तंत्रिका संबंधी हानि के बिना श्वसन, हृदयवाहिकीय, या जठरांत्रीय संलिप्तता",
+            "locale": "hi",
+            "template": "documented-authored-b5bc5d21e4707b50e216"
+          },
+          "note": {
+            "text": "इंट्रामस्क्युलर एड्रेनालिन 0,01 mg/kg (वयस्क में अधिकतम 0,5 mg, बच्चे में 0,3 mg) जांघ के अग्रपार्श्व भाग में, बिना देरी के; आवश्यकता होने पर 5 से 15 मिनट में दोहराएँ।",
+            "locale": "hi",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Urticária, sibilância e PAS 80 mmHg: grau 3",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "ग्रेड 3 (गंभीर): हाइपोक्सेमिया, हाइपोटेंशन, या तंत्रिका संबंधी हानि",
+            "locale": "hi",
+            "template": "documented-authored-e26ec9b6af2b007931b4"
+          },
+          "note": {
+            "text": "इंट्रामस्क्युलर एड्रेनालिन 0,01 mg/kg (वयस्क में अधिकतम 0,5 mg, बच्चे में 0,3 mg) जांघ के अग्रपार्श्व भाग में, बिना देरी के; आवश्यकता होने पर 5 से 15 मिनट में दोहराएँ।",
+            "locale": "hi",
+            "template": "documented-authored-583bd05d92db4d80fe0f"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

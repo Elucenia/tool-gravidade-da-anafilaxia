@@ -328,7 +328,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Brown 2004:3 graus, achado maisgrave; Sp O 2≤92/PAS<90/neurológico",
-    "implementationVersion": "gravidade-da-anafilaxia@native-2026-10-03+eb5f0efba0c6",
+    "implementationVersion": "gravidade-da-anafilaxia@native-2026-10-05+6fa0f563c3cc",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/15316518/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -630,7 +630,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+      "implementationHash": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "gravidade-da-anafilaxia@native-2026-10-03+eb5f0efba0c6",
+          "previousImplementationHash": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d",
+          "implementationHash": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7",
+          "scientificBodySha256": "2372308be9d5e8b07f07239036805fc06714ea36ff5f1832c9289c97c8da7362",
+          "metadataContractHash": "3d8262e2a60abac5c82e3343e60c3b7718a654d089bfe06deccf74a50c8868ba",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A classificação Brown foi estudada retrospectivamente em reações de hipersensibilidade sistêmica na emergência. Gravidade não é uma definição completa de diagnóstico nem regra terapêutica isolada. Limiares numéricos e definições da versão devem ser conferidos no método integral; sinais e condições de aplicação não podem ser substituídos somente pelo total.",
     "sourceLimitEvidence": {
@@ -649,20 +677,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/gravidade-da-anafilaxia/calculator.js",
-    "bytes": 5651,
-    "sha256": "eb5f0efba0c6b05d9f50299b81827619f75757e8a8c0e5d5f43310dc110de23d"
+    "bytes": 5856,
+    "sha256": "6fa0f563c3ccf1c94c71e4dcbb127d641d1a13cc2de6aa67deb0f76f0535e2d7"
   },
-  "sourceToolSha256": "2347990524095bbaab8d6f16b1c9c9f9e1b7a45624deb0d723363568c41f2abb",
+  "sourceToolSha256": "483a60e226d24bb6f0a234645f9fb29fc9f058a35d281ae1941271181d6a79e8",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "9f97be66834fbce28a358edbdf2e4366a67bc3123641b21010d064552d1c426a",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "9f97be66834fbce28a358edbdf2e4366a67bc3123641b21010d064552d1c426a",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

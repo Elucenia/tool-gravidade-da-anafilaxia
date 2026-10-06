@@ -87,3 +87,35 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Grade 1 (mild): generalized reaction limited to the skin and subcutaneous tissue
+
+Observe the progression: cutaneous symptoms may precede involvement of other systems.
+
+
+### 2
+
+Grade 2 (moderate): respiratory, cardiovascular, or gastrointestinal involvement without hypoxemia, hypotension, or neurological impairment
+
+Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.
+
+
+### 3
+
+Grade 2 (moderate): respiratory, cardiovascular, or gastrointestinal involvement without hypoxemia, hypotension, or neurological impairment
+
+Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.
+
+
+### 4
+
+Grade 3 (severe): hypoxemia, hypotension, or neurological impairment
+
+Intramuscular epinephrine 0,01 mg/kg (maximum 0,5 mg in adults, 0,3 mg in children) in the anterolateral thigh, without delay; repeat in 5 to 15 minutes if necessary.
+

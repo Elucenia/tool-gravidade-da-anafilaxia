@@ -87,3 +87,35 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Grado 1 (lieve): reazione generalizzata limitata alla cute e al sottocutaneo
+
+Osservare la progressione: i sintomi cutanei possono precedere il coinvolgimento di altri sistemi.
+
+
+### 2
+
+Grado 2 (moderato): interessamento respiratorio, cardiovascolare o gastrointestinale senza ipossiemia, ipotensione o compromissione neurologica
+
+Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.
+
+
+### 3
+
+Grado 2 (moderato): interessamento respiratorio, cardiovascolare o gastrointestinale senza ipossiemia, ipotensione o compromissione neurologica
+
+Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.
+
+
+### 4
+
+Grado 3 (grave): ipossiemia, ipotensione o compromissione neurologica
+
+Adrenalina intramuscolare 0,01 mg/kg (massimo 0,5 mg nell’adulto, 0,3 mg nel bambino) nella faccia anterolaterale della coscia, senza ritardo; ripetere in 5 a 15 minuti se necessario.
+
